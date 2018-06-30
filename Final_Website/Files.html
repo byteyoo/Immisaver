@@ -36,8 +36,10 @@
     <!--Files Feed View  -->
     <div class="container">
         <h3><strong>All Files</strong> </h3>
+        <br>
         <a href="#content" data-toggle="modal" class="btn btn-danger">Upload Document</a>
         </div>
+        <br>
     </div>
     <div class="container">
         <div class="personal">
@@ -52,20 +54,15 @@
                         </thead>
                         <tbody>
                             <tr>
-                            <td> <a href="#view-file" data-toggle="modal" > File Name </a></td>
-                            <td>Date</td>
+                            <td> <a href="#view-file-1" data-toggle="modal" > File Name </a></td>
+                            <td>Date: 06/30/2018</td>
                             </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
+
                         </tbody>
                  </table>
         </div>
+
+            <br>
 
         <div class="legal">
             <h5>  <strong>Legal Documents</strong> </h5>
@@ -79,20 +76,15 @@
                         </thead>
                         <tbody>
                             <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
+                            <td> <a href="#view-file-2" data-toggle="modal" > File Name </a></td>
+                            <td>Date: 05/11/2015</td>
                             </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
+
                         </tbody>
                  </table>
         </div>
+
+        <br>
 
         <div class="medical">
             <h5> <strong>Medical Documents</strong> </h5>
@@ -106,20 +98,16 @@
                         </thead>
                         <tbody>
                             <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
+                            <td> <a href="#view-file-3" data-toggle="modal" > File Name </a></td>
+                            <td>Date: 08/24/2014</td>
                             </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
+
                         </tbody>
                  </table>
         </div>
+
+        <br>
+
         <div class="tax">
             <h5> <strong>Tax</strong> </h5>
                  <!-- Table -->
@@ -132,20 +120,15 @@
                     </thead>
                         <tbody>
                             <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
+                            <td> <a href="#view-file-4" data-toggle="modal" > File Name </a></td>
+                            <td>Date: 03/26/2016</td>
                             </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
+
                         </tbody>
                      </table>
             </div>
+
+            <br>
 
         <div class="other">
             <h5> <strong>Other</strong> </h5>
@@ -159,21 +142,14 @@
                         </thead>
                         <tbody>
                             <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
+                            <td> <a href="#view-file-5" data-toggle="modal" > File Name </a></td>
+                            <td>Date: 07/21/2017</td>
                             </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
-                            <tr>
-                            <td>File Name</td>
-                            <td>Date</td>
-                            </tr>
+
                         </tbody>
                  </table>
         </div>
-     </div>
+    </div>
 
 
     <!-- Footer -->
@@ -224,60 +200,125 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <div class="modal fade" id="content" role="dialog">
-        <div class="modal-dialog">
-    		<div class="modal-content">
-    			<form class="form-horizontal" role="form">
-    				<div class="modal-header">
-    					<h4>Upload<h4>
-	    			</div>
-	    			<div class="modal-body">
-    					<div class="form-group">
-    						<label for="content-name" class="col-sm-10 control-label"> Document Name</label>
-    						<div class="col-sm-10">
-    							<input type="text" class="form-control" id="contact-name" placeholder="CopyofId ">
-    						</div>
-    					</div>
-    					<div class="form-group">
-    						<label for="content-email" class="col-sm-10 control-label">Document Type</label>
-    						<div class="col-sm-10">
-                                <select>
-                                    <option value="volvo">Personal</option>
-                                    <option value="saab">Legal</option>
-                                    <option value="opel">Medical</option>
-                                    <option value="audi">Tax</option>
-                                    <option value="audi">Other</option>
-                                </select>
-    						</div>
-    					</div>
-    					<div class="form-group">
-    						<div class="col-sm-10">
-                                <input type="file" id="new-file" name="new_file" />
-    						</div>
-    					</div>
-	    			</div>
-	    			<div class="modal-footer">
-    					<a class="btn btn-primary" data-dismiss="modal">Cancel</a>
-    					<button type="submit" class="btn btn-success">Add</button>
-    				</div>
-    			</form>
-    		</div>
-    	</div>
-    </div>
 
-    <div class="modal fade" id="view-file" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4>Viewing File<h4>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://drive.google.com/file/d/1UdT2N_UFvprDFn5MH0x6WTQJiBqm5ReJ/preview?usp=drivesdk" width="450" height="375"></iframe>
-                        <a href= "/Immisaver/Final_Website/files/birthcertificate.pdf" class="btn btn-primary" src="/Immisaver/Final_Website/files/birthcertificate.pdf" >Download </a>
-                    </div>
+<div class="modal fade" id="view-file-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Viewing File<h4>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/file/d/1UdT2N_UFvprDFn5MH0x6WTQJiBqm5ReJ/preview" width="450" height="375"></iframe>
+                    <a href= "/Immisaver/Final_Website/files/birthcertificate.pdf" class="btn btn-primary" src="/Immisaver/Final_Website/files/birthcertificate.pdf" >Download </a>
                 </div>
             </div>
+        </div>
+    </div>   
+
+<!-- Legal-->
+    <div class="modal fade" id="view-file-2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Viewing File<h4>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/file/d/1oR9kCuH8ApC2QWdSYtvjBa1JEm51_mKZ/preview" width="450" height="375"></iframe>
+                    <a href= "/Immisaver/Final_Website/files/passport.pdf" class="btn btn-primary" src="/Immisaver/Final_Website/files/birthcertificate.pdf" >Download </a>
+                </div>
+            </div>
+        </div>
     </div>
+
+<!-- Medical-->
+<div class="modal fade" id="view-file-3" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Viewing File<h4>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://drive.google.com/file/d/1TDYGnOvlcl3ndhRzW0WpZs0GCgfTHD__/preview" width="450" height="375"></iframe>
+                <a href= "/Immisaver/Final_Website/files/medical.pdf" class="btn btn-primary" src="/Immisaver/Final_Website/files/birthcertificate.pdf" >Download </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Tax-->
+
+<div class="modal fade" id="view-file-4" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Viewing File<h4>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://drive.google.com/file/d/1QJ2pUnIhHuqDhUVtxN59w55mrDPWUuiF/preview" width="450" height="375"></iframe>
+                <a href= "/Immisaver/Final_Website/files/taxreturn.pdf" class="btn btn-primary" src="/Immisaver/Final_Website/files/taxreturn.pdf" >Download </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Other-->
+
+
+<div class="modal fade" id="view-file-5" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Viewing File<h4>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://drive.google.com/file/d/1AT2zVY4t7P3l9BlLs76a0Sg7C-2i0whB/preview" width="450" height="375"></iframe>
+                <a href= "/Immisaver/Final_Website/files/driver.pdf" class="btn btn-primary" src="/Immisaver/Final_Website/files/birthcertificate.pdf" >Download </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="content" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal" role="form">
+                <div class="modal-header">
+                    <h4>Upload<h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="content-name" class="col-sm-10 control-label"> Document Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="CopyofId ">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="content-email" class="col-sm-10 control-label">Document Type</label>
+                        <div class="col-sm-10">
+                            <select>
+                                <option value="volvo">Personal</option>
+                                <option value="saab">Legal</option>
+                                <option value="opel">Medical</option>
+                                <option value="audi">Tax</option>
+                                <option value="audi">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="file" id="new-file" name="new_file" />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" data-dismiss="modal">Cancel</a>
+                    <button type="submit" class="btn btn-success">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
