@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+table.List-View-Doc {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    color: #000000;
+  }
+  
+table.List-View-Doc td, table.List-View-Doc th {
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 3px;
+  }
+  
+table.List-View-Doc thead {
+    background-color: #f0efea;
+  }
